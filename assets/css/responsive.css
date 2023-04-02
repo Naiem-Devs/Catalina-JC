@@ -1,0 +1,418 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+.header-area {
+    top: 10px;
+}
+
+.hero_title p {
+    font-size: 160px;
+}
+
+.hero_content {
+    max-width: 632px;
+}
+
+.hero_title p:after {
+    width: 250px;
+}
+
+.hero_content h3 {
+    font-size: 24px;
+    margin-top: -30px;
+}
+
+.hero_title_btm {
+    width: 265px;
+}
+.explore-top p {
+    font-size: 155px;
+}
+.booking_right {
+    max-width: 456px;
+    padding: 40px 50px;
+}
+
+.blog_text2 {
+    margin-left: 60px;
+}
+.explore-blk div {
+    padding-left: 50px;
+}
+.discount_wrp i {
+    width: 35%;
+}
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .header-area {
+        top: 10px;
+    }
+    
+    .hero_title p {
+        font-size: 130px;
+        line-height: 1;
+    }
+    
+    .hero_content {
+        max-width: 503px;
+        margin-top: 150px;
+    }
+    
+    .hero_title p:after {
+        width: 210px;
+    }
+    
+    .hero_content h3 {
+        font-size: 20px;
+        margin-top: -12px;
+        font-weight: 600;
+    }
+    
+    .hero_title_btm {
+        width: 217px;
+    }
+    .explore-top p {
+        font-size: 125px;
+    }
+
+.explore-top p img {
+    width: 112px;
+    margin-right: -86px;
+}
+    .booking_right {
+        max-width: 456px;
+        padding: 40px 30px;
+        margin: auto;
+        height: 100%;
+    }
+    
+    .blog_text2 {
+    margin-top: 146px;
+    }
+    .explore-blk div {
+        padding-left: 50px;
+    }
+    .discount_wrp i {
+        width: 100%;
+    }
+    .booking_left {
+    }
+    
+    .booking_left_content {
+        padding: 0 20px;
+    }
+    
+    .booking_right p {
+    }
+    
+    .discount_wrp {
+        flex-wrap: wrap;
+    }
+    
+    .discount_wrp i img {
+        width: 100%;
+    }
+    
+    .discount_wrp i a {
+        top: 0;
+    }
+    
+    .blog_text {margin-inline: auto;}
+    
+    .blog-Area:before {
+        width: 100%;
+        height: 50%;
+    }
+    
+    .footer_nav {
+        max-width: 370px;
+        margin: 50px auto;
+    }
+    
+    .footer_logo {
+        text-align: center;
+    }
+    
+    .footer_nav ul {
+    }
+    
+    .footer_nav ul li {
+        text-align: center;
+    }
+    
+    .social_content {
+        max-width: 400px;
+        margin: auto;
+        border: none;
+        text-align: center;
+    }
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    .header-area {
+        top: 10px;
+    }
+    
+    .hero_title p {
+        font-size: 85px;
+        line-height: 1;
+    }
+
+.hero_title p:nth-child(2) {
+    text-align: right;
+    margin: -35px 0 -43px;
+    margin-left: auto;
+}
+
+.hero_title p:nth-child(3) {
+    transform: translateX(-17px);
+}
+    
+    .hero_content {
+        max-width: 330px;
+        margin-top: 150px;
+    }
+    
+    .hero_title p:after {
+        width: 140px;
+        height: 6px;
+    }
+    
+    .hero_content h3 {
+        font-size: 20px;
+        margin-top: -12px;
+        font-weight: 600;
+    }
+    
+    .hero_title_btm {
+        width: 300px;
+        margin: auto;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+.hero_title_btm a {
+    margin: auto;
+}
+    .explore-top p {
+        font-size: 80px;
+    }
+
+.explore-top p img {
+    width: 70px;
+    margin-right: -55px;
+}
+    .booking_right {
+        max-width: 390px;
+        padding: 40px 30px;
+        margin: 20px auto;
+        height: 100%;
+        text-align: center;
+    }
+    
+    .blog_text2 {
+    margin-top: 146px;
+    }
+    .explore-blk div {
+        padding: 20px 15px 40px;
+        padding-left: 34px;
+    }
+    .discount_wrp i {
+        width: 100%;
+    }
+    .booking_left {
+    }
+    
+    .booking_left_content {
+        padding: 0 20px;
+    }
+    
+    .booking_right p {
+    font-size: 20px;
+    }
+    
+    .discount_wrp {
+        flex-wrap: wrap;
+    }
+    
+    .discount_wrp i img {
+        width: 100%;
+        height: 200px;
+    }
+    
+    .discount_wrp i a {
+        top: 0;
+    }
+    
+    .blog_text {margin-inline: auto;}
+    
+    .blog-Area:before {
+        width: 100%;
+        height: 50%;
+    }
+    
+    .footer_nav {
+        max-width: 370px;
+        margin: 50px auto;
+    }
+    
+    .footer_logo {
+        text-align: center;
+    }
+    
+    .footer_nav ul {
+    }
+    
+    .footer_nav ul li {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    .social_content {
+        max-width: 400px;
+        margin: auto;
+        border: none;
+        text-align: center;
+        padding-left: 0;
+    }
+    .booking-Area{
+    flex-direction: column;
+}
+
+.booking_content {
+    width: 100%;
+}
+.booking_left > p {
+    font-size: 34px;
+    padding: 30px 0;
+}
+
+.input_blk input, .nice-select {
+    height: 50px;
+}
+
+.input_blk {
+    margin-top: 15px;
+}
+
+.select_type h6 {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.select_type {
+    flex-wrap: wrap;
+}
+
+.Tickets_wrp {
+    margin-top: 20px;
+}
+
+.Tickets_blk p {
+    font-size: 12px;
+}
+
+.Ticket_quantity a {
+    font-size: 20px;
+}
+
+.Ticket_quantity {
+    width: 110px;
+}
+
+.booking_left_content > a {
+    margin: 30px auto 50px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.booking-btm p {
+    font-size: 32px;
+    max-width: 300px;
+    margin-inline: auto;
+}
+
+.explore-blk p {
+    font-size: 20px;
+}
+
+.explore-blk h3 {
+    font-size: 20px;
+}
+
+.explore-blk {
+    margin-top: 40px;
+}
+
+.village_wrp {
+    width: 100%;
+}
+
+.Advertisement p {
+    text-align: center;
+}
+
+.discount-content {
+    flex-wrap: wrap;
+}
+
+.rooms_title {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.rooms_title h1 {
+    font-size: 40px;
+}
+
+.rooms_title h3 {
+    font-size: 18px;
+    width: 100%;
+}
+
+.village_wrp img {
+    margin: 25px 25px;
+}
+
+.footer_nav ul li a {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.social_content ul li a {
+    font-size: 30px;
+}
+
+.social_content h3 {
+    font-size: 20px;
+}
+
+.footer_btm p {
+    margin-bottom: 0;
+}
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
